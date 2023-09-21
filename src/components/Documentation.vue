@@ -57,7 +57,7 @@ onMounted(() => {
 const getImages = () => {
   const arr = [];
   for (let i = 1; i < 7; i++) {
-    arr.push(`new-project/img/dokumentasi/${i}.jpg`);
+    arr.push(`/new-project/img/dokumentasi/${i}.jpg`);
   }
 
   return arr;

@@ -16,6 +16,7 @@ watch(props, () => {
 
 onMounted(() => {
   bgm.value.currentTime = 40.5;
+  bgm.value.volume = 0.5;
 });
 
 const setVolume = (e) => {
